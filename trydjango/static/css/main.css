@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.box-1{
+    /*background-color: slategrey;*/
+    background-image: -moz-element();
+    padding: 0%;
+    border: slategray;
+    
+}
+
+.main-navbar{
+    list-style-type: none;
+    
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+
+.container-1{
+    width: 10%;
+    font-style: italic;
+    margin: 1%;
+    margin-top: 15%;
+    
+
+
+}
+
+.container-hjem-h1{
+    
+    text-align: center;   
+}
+
+.container-hjem-h1 img{
+    margin-top: -25px;
+    margin-left: -45px;
+    float: left;   
+}
+
+.container-kontakt-oss-h1{
+    
+    text-align: center;   
+}
+
+.container-kontakt-oss-h1 img{
+    margin-top: -25px;
+    margin-left: -45px;
+    float: left;
+}
+
+.container-om-oss-h1{
+    
+    text-align: center;   
+}
+
+.container-om-oss-h1 img{
+    margin-top: -25px;
+    margin-left: -45px;
+    float: left;
+}
+.button-hjem{
+    width: 15%;
+    margin-top: 5%;
+    font-size: 45px;
+    border: hidden;
+}
+
+.button-medlemmer{
+    width: 15%;
+    font-size: 45px;
+    border: hidden;
+}
+
+.button-om-oss{
+    width: 15%;
+    font-size: 45px;
+    border: hidden;
+}
+
+.button-kontakt-oss{
+    width: 15%;
+    font-size: 45px;
+    border: hidden;
+}
+
+
+
