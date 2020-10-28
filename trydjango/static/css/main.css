@@ -1,6 +1,6 @@
-*{
-    margin: 0%;
-    padding: 0%;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 .box-1{
@@ -8,6 +8,22 @@
     background-image: -moz-element();
     padding: 0%;
     border: slategray;
+    
+}
+
+.Title-block{
+    text-align: center; 
+
+}
+
+.Title-block img{
+    margin-top: -25px;
+    margin-left: -45px;
+    float: left;
+}
+
+.base-head{
+    margin: 10%;
     
 }
 
@@ -20,48 +36,8 @@
 }
 
 
-.container-1{
-    width: 10%;
-    font-style: italic;
-    margin: 1%;
-    margin-top: 15%;
-    
 
 
-}
-
-.container-hjem-h1{
-    
-    text-align: center;   
-}
-
-.container-hjem-h1 img{
-    margin-top: -25px;
-    margin-left: -45px;
-    float: left;   
-}
-
-.container-kontakt-oss-h1{
-    
-    text-align: center;   
-}
-
-.container-kontakt-oss-h1 img{
-    margin-top: -25px;
-    margin-left: -45px;
-    float: left;
-}
-
-.container-om-oss-h1{
-    
-    text-align: center;   
-}
-
-.container-om-oss-h1 img{
-    margin-top: -25px;
-    margin-left: -45px;
-    float: left;
-}
 .button-hjem{
     width: 15%;
     margin-top: 5%;

@@ -1,13 +1,15 @@
 {% extends 'base.html' %}
 {% load static %}
 
-{% block content %}
-<head>
-    <div class="container-kontakt-oss-h1">
-        <h1> Lurer du på noe? Kontakt oss gjerne! </h1>
-        <a href="http://127.0.0.1:8000/hjem/"><img src="{% static 'images/LHBKK.jpg' %}" width="300"></a>
-    </div>
-</head>
-{% include 'navbar.html' %}
 
+
+{% block title %}
+<title> LHBK Kontakt oss</title>
+<div class="container-kontakt-oss-h1">
+<h1>Noe du lurer på? ta gjerne kontakt!</h1>
+</div>
+{% endblock title %}
+
+
+{% block content %}
 {% endblock %}

@@ -1,37 +1,12 @@
 {% extends 'base.html' %}
 {% load static %}
 
+
+{% block title %}
+<title>Lindesnes Håndbakklubb</title>
+<h1>Lindesnes Håndbakklubb</h1>
+{% endblock title%}
+
+
 {% block content %}
-
-<!DOCTYPE html>
-<html>
-
-<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
-
-<head>
-    
-    <div class="container-hjem-h1">
-    <h1> Velkommen til Lindesnes håndbak klubb sin hjemmeside </h1>
-    <a href="http://127.0.0.1:8000/hjem/"><img src="{% static 'images/LHBKK.jpg' %}" width="300"></a>
-    </div>
-    
-    
-    
-
-</head>
-
-<body>
-    {% include 'navbar.html' %}
-    <div class="container-1">
-
-    <p> Her kan du finne nyttig informasjon om våre treningstidspunkter, turneringer eller bare generell info om oss. </p>
-    <br>
-    <br>
-    <p> Norges sydligste håndbakklubb.
-        Har du lyst til å prøve? Ta kontakt!</p>
-    </div>
-
-</body>
-</html>
-
 {% endblock %}

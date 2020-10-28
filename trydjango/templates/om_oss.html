@@ -1,15 +1,14 @@
 {% extends 'base.html' %}
 {% load static %}
 
+
+{% block title %}
+<title> LHBK Om oss</title>
+<div class="container-om-oss-h1">
+<h1>Litt om klubben</h1>
+</div>
+{% endblock title%}
+
+
 {% block content %}
-<head>
-    <div class="container-om-oss-h1">
-        <h1> Litt om Lindesnes Håndbak klubb </h1>
-        <a href="http://127.0.0.1:8000/hjem/"><img src="{% static 'images/LHBKK.jpg' %}" width="300"></a>
-    </div>
-</head>
-{% include 'navbar.html' %}
-
-
-
 {% endblock %}
